@@ -19,6 +19,7 @@ x = symbols('x')
 #Diccionario de equivalencias
 BASE = dict({'a': x, 'b': x**2, 'c': x**3, 'd': x**4})
 A = [['a', 'b'], ['c', 'd']]
+print("original: ",A)
 B = derivar(A, BASE)
 print(B)
 C = integrar(B, x)
