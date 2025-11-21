@@ -22,5 +22,3 @@ A = [['a', 'b'], ['c', 'd']]
 print("original: ",A)
 B = derivar(A, BASE)
 print(B)
-C = integrar(B, x)
-print(C)
